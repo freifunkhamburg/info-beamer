@@ -1,0 +1,10 @@
+#alle Dateien ignorieren...
+*
+
+#ausser...
+!/ffnord-con-2015-2
+!/ffnord-con-2015-2/*
+!/ffnord-con-2015-2/*/*
+!/ffnord-con-2015-2/*/*/*
+!.gitignore
+!README
