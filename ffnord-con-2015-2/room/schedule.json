@@ -1,0 +1,121 @@
+[
+    {
+        "duration": 60,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+        ],
+        "start": "9:30",
+        "title": "„Einlass“ und Frühstück",
+        "type": "talk",
+        "unix": 1441956600,
+        "unix_end": 1441960200
+    },
+
+    {
+        "duration": 30,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+        ],
+        "start": "11:00",
+        "title": "Eröffnungsplenum",
+        "type": "talk",
+        "unix": 1441962000,
+        "unix_end": 1441963800
+    },
+
+    {
+        "duration": 60,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+            "t.b.a."
+        ],
+        "start": "12:00",
+        "title": "Vortrags-Slot #1 mit folgender Diskussion und Kaffeepause",
+        "type": "talk",
+        "unix": 1441965600,
+        "unix_end": 1441969200
+    },
+
+    {
+        "duration": 60,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+            "t.b.a."
+        ],
+        "start": "14:00",
+        "title": "Vortrags-Slot #2 mit folgender Diskussion und Kaffeepause",
+        "type": "talk",
+        "unix": 1441972800,
+        "unix_end": 1441976400
+    },
+
+    {
+        "duration": 240,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+        ],
+        "start": "16:00",
+        "title": "Workshop und Hacking Time",
+        "type": "talk",
+        "unix": 1441980000,
+        "unix_end": 1441994400
+    },
+
+    {
+        "duration": 60,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+        ],
+        "start": "9:30",
+        "title": "„Einlass“ und Frühstück",
+        "type": "talk",
+        "unix": 1442043000,
+        "unix_end": 1442046600
+    },
+
+    {
+        "duration": 60,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+            "t.b.a."
+        ],
+        "start": "11:00",
+        "title": "Vortrags-Slot #3 mit folgender Diskussion und Kaffeepause",
+        "type": "talk",
+        "unix": 1442048400,
+        "unix_end": 1442052000
+    },
+
+    {
+        "duration": 150,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+        ],
+        "start": "13:00",
+        "title": "Workshop und Hacking Time",
+        "type": "talk",
+        "unix": 1442055600,
+        "unix_end": 1442064600
+    },
+
+    {
+        "duration": 30,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+        ],
+        "start": "16:00",
+        "title": "Abschlussplenum und Diskussion",
+        "type": "talk",
+        "unix": 1442066400,
+        "unix_end": 1442068200
+    }
+]

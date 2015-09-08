@@ -1,0 +1,15 @@
+{
+    "devices": {
+        "2429607372": "attraktor"
+    },
+    "rooms": {
+        "attraktor": {
+            "dect": "",
+            "translation": "",
+            "twitter": "#ffnord",
+            "irc": "#ffnord",
+            "texture": "marble",
+            "speed": 70
+        }
+    }
+}
