@@ -4,10 +4,8 @@
     },
     "rooms": {
         "attraktor": {
-            "dect": "",
-            "translation": "",
             "twitter": "#ffnord",
-            "irc": "#ffnord",
+            "irc": "irc://irc.hackint.org/#ffnord",
             "texture": "marble",
             "speed": 70
         }

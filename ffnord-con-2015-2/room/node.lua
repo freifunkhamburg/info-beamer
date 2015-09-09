@@ -49,7 +49,7 @@ function check_next_talk()
     end
 
     for room, talk in pairs(room_next) do
-        talk.lines = wrap(talk.title, 30)
+        talk.lines = wrap(talk.title, 40)
     end
 
     if room_next[saal] then
@@ -182,10 +182,10 @@ function switcher(screens)
 end
 
 content = switcher{
---[[    {
-        time = 10;
+    {
+        time = 20;
         draw = function()
-            font:write(400, 200, "Other rooms", 80, 1,1,1,1)
+            redU(400, 200, "Other rooms", 80)
             white:draw(0, 300, WIDTH, 302, 0.6)
             y = 320
             local time_sep = false
@@ -204,16 +204,16 @@ content = switcher{
                     if not time_sep then
                         alpha = 0.3
                     end
-                    font:write(30, y, talk.start, 50, 1,1,1,alpha)
-                    font:write(190, y, talk.place, 50, 1,1,1,alpha)
-                    font:write(400, y, talk.lines[math.floor((sys.now()/2) % #talk.lines)+1], 50, 1,1,1,alpha)
+                    blueU(30, y, talk.start, 50)
+                    redU(190, y, talk.place, 50)
+                    yellow(450, y, talk.lines[math.floor((sys.now()/2) % #talk.lines)+1], 50)
                     y = y + 60
                 end
             else
-                font:write(400, 330, "No other talks.", 50, 1,1,1,1)
+                yellow(400, 330, "No other talks.", 50, 1,1,1,1)
             end
         end
-    }, --]] {
+    }, {
         time = 30;
         draw = function()
             if not current_talk then
@@ -245,33 +245,28 @@ content = switcher{
                 end
             end
         end
-    }, --[[ {
+    }, {
         time = 10;
         draw = function(t)
-            font:write(400, 200, "Room info", 80, 1,1,1,1)
+            redU(400, 200, "Info", 80)
+
             white:draw(0, 300, WIDTH, 302, 0.6)
-            font:write(30, 320, "Audio", 50, 1,1,1,1)
-            font:write(400, 320, "Dial " .. room.dect, 50, 1,1,1,1)
 
-            font:write(30, 380, "Translation", 50, 1,1,1,1)
-            font:write(400, 380, "Dial " .. room.translation, 50, 1,1,1,1)
+            blueU(30, 320, "IRC", 50)
+            yellow(400, 320, room.irc, 50)
 
-            font:write(30, 480, "IRC", 50, 1,1,1,1)
-            font:write(400, 480, room.irc, 50, 1,1,1,1)
+            blueU(30, 380, "Twitter", 50)
+            yellow(400, 380, room.twitter, 50)
 
-            font:write(30, 540, "Twitter", 50, 1,1,1,1)
-            font:write(400, 540, room.twitter, 50, 1,1,1,1)
+--[[
+            blueU(30, 480, "Audio", 50)
+            yellow(400, 480, "Dial " .. room.irc, 50)
 
-            if t then
-                local banner = -4 + t
-                if banner > 0 and banner < 3.1412 then
-                    local alpha = math.pow(math.sin(banner), 2)
-                    local x = 400 - math.pow(banner / math.pi - 0.5, 5) * WIDTH * 2
-                    font:write(x, 640, "http://info-beamer.org/", 30, 1,1,1,alpha)
-                end
-            end
+            blueU(30, 540, "Translation", 50)
+            yellow(400, 540, "Dial " .. room.twitter, 50)
+--]]
         end
-    }, --]]
+    },
 }
 
 function redU(x, y, text, size)

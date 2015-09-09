@@ -9,7 +9,7 @@ from datetime import datetime, date
 diff = None
 
 # Fake time in UTC
-diff = datetime(2015,9,11,8,30,00) - datetime.utcnow() 
+diff = datetime(2015,9,11,7,29,00) - datetime.utcnow() 
 
 met = pytz.timezone("Europe/Berlin")
 def current_time():
@@ -29,7 +29,7 @@ def send(data):
     print >>sys.stderr, "SENT >>> ", data
 
 def send_clock(now, ts):
-    day = (now.date() - date(2015, 9, 11)).days
+    day = (now.date() - date(2015, 9, 10)).days
     since_midnight = (
         now -
         now.replace(hour=0, minute=0, second=0, microsecond=0)
