@@ -67,20 +67,6 @@
     },
 
     {
-        "duration": 120,
-        "lang": "de",
-        "place": "NÄHSTUBE",
-        "speakers": [
-            "DO9XE"
-        ],
-        "start": "14:00",
-        "title": "Workshop - ffnord-Netz aufsetzen",
-        "type": "talk",
-        "unix": 1442059200,
-        "unix_end": 1442066400
-    },
-
-    {
         "duration": 60,
         "lang": "de",
         "place": "attraktor",
@@ -92,6 +78,20 @@
         "type": "talk",
         "unix": 1442066400,
         "unix_end": 1442070000
+    },
+
+    {
+        "duration": 120,
+        "lang": "de",
+        "place": "NÄHSTUBE",
+        "speakers": [
+            "DO9XE"
+        ],
+        "start": "16:00",
+        "title": "Workshop - ffnord-Netz aufsetzen",
+        "type": "talk",
+        "unix": 1442066400,
+        "unix_end": 1442073600
     },
 
     {
@@ -108,15 +108,15 @@
     },
 
     {
-        "duration": 240,
+        "duration": 180,
         "lang": "de",
         "place": "NÄHSTUBE",
         "speakers": [
         ],
-        "start": "16:00",
+        "start": "18:00",
         "title": "Workshop und Hacking Time",
         "type": "talk",
-        "unix": 1442066400,
+        "unix": 1442073600,
         "unix_end": 1442080800
     },
 
