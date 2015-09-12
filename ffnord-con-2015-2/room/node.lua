@@ -256,7 +256,7 @@ content = switcher{
             yellow(400, 320, "Im Keller", 50)
 
             blueU(30, 380, "Spenden", 50)
-            yellow(400, 380, "Box am Tresen für Frühstück & Co.", 50)
+            yellow(400, 380, "Box am Tresen - Kosten noch nicht gedeckt", 50)
 
             blueU(30, 480, "IRC", 50)
             yellow(400, 480, room.irc, 50)
@@ -271,7 +271,8 @@ content = switcher{
 
             white:draw(0, 300, WIDTH, 302, 0.6)
 
-            yellowU(350, 400, "ESST MEHR BRÖTCHEN!!1ELF", 50)
+            yellowU(350, 400, "ESST MEHR AUFSCHNITT!!1ELF", 50)
+            yellowU(300, 500, "SPENDET MEHR FÜR'S FRÜHSTÜCK!", 50)
         end
     },
 }
