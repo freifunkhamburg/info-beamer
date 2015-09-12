@@ -258,10 +258,10 @@ content = switcher{
             blueU(30, 380, "Twitter", 50)
             yellow(400, 380, room.twitter, 50)
 
---[[
-            blueU(30, 480, "Audio", 50)
-            yellow(400, 480, "Dial " .. room.irc, 50)
+            blueU(30, 480, "WC", 50)
+            yellow(400, 480, "Im Keller", 50)
 
+--[[
             blueU(30, 540, "Translation", 50)
             yellow(400, 540, "Dial " .. room.twitter, 50)
 --]]
