@@ -134,17 +134,30 @@
     },
 
     {
+        "duration": 30,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+        ],
+        "start": "11:00",
+        "title": "Vorstellung des Council + Plenum",
+        "type": "talk",
+        "unix": 1442134800,
+        "unix_end": 1442136600
+    },
+
+    {
         "duration": 60,
         "lang": "de",
         "place": "attraktor",
         "speakers": [
             "t.b.a."
         ],
-        "start": "11:00",
+        "start": "11:45",
         "title": "Vortrags-Slot #3 mit folgender Diskussion und Kaffeepause",
         "type": "talk",
-        "unix": 1442134800,
-        "unix_end": 1442138400
+        "unix": 1442137500,
+        "unix_end": 1442141100
     },
 
     {
