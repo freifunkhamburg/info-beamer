@@ -67,7 +67,7 @@
     },
 
     {
-        "duration": 60,
+        "duration": 30,
         "lang": "de",
         "place": "attraktor",
         "speakers": [
@@ -77,7 +77,7 @@
         "title": "Planung von Richtfunk-Standorten",
         "type": "talk",
         "unix": 1442066400,
-        "unix_end": 1442070000
+        "unix_end": 1442068200
     },
 
     {
@@ -95,15 +95,29 @@
     },
 
     {
-        "duration": 240,
+        "duration": 60,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+            "tcatm"
+        ],
+        "start": "16:45",
+        "title": "Layer 3 Roaming",
+        "type": "talk",
+        "unix": 1442069100,
+        "unix_end": 1442072700
+    },
+
+    {
+        "duration": 180,
         "lang": "de",
         "place": "attraktor",
         "speakers": [
         ],
-        "start": "17:00",
+        "start": "18:00",
         "title": "Workshop und Hacking Time",
         "type": "talk",
-        "unix": 1442070000,
+        "unix": 1442073600,
         "unix_end": 1442084400
     },
 
