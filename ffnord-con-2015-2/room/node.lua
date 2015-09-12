@@ -183,7 +183,6 @@ end
 
 content = switcher{
     {
---[[
         time = 20;
         draw = function()
             redU(400, 200, "Other rooms", 80)
@@ -266,8 +265,7 @@ content = switcher{
             yellow(400, 540, room.twitter, 50)
         end
     }, {
---]]
-        time = 60;
+        time = 15;
         draw = function(t)
             redU(110, 200, "PUBLIC SERVICE ANNOUNCEMENT", 80)
 
