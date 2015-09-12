@@ -264,6 +264,15 @@ content = switcher{
             blueU(30, 540, "Twitter", 50)
             yellow(400, 540, room.twitter, 50)
         end
+    }, {
+        time = 10;
+        draw = function(t)
+            redU(110, 200, "PUBLIC SERVICE ANNOUNCEMENT", 80)
+
+            white:draw(0, 300, WIDTH, 302, 0.6)
+
+            yellowU(350, 400, "ESST MEHR BRÖTCHEN!!1ELF", 50)
+        end
     },
 }
 
