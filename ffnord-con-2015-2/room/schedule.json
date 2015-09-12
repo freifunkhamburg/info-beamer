@@ -30,13 +30,13 @@
         "lang": "de",
         "place": "attraktor",
         "speakers": [
-            "t.b.a."
+            "kantorkel"
         ],
-        "start": "12:00",
-        "title": "Vortrags-Slot #1 mit folgender Diskussion und Kaffeepause",
+        "start": "12:15",
+        "title": "Freifunk für Flüchtlinge",
         "type": "talk",
-        "unix": 1442052000,
-        "unix_end": 1442055600
+        "unix": 1442052900,
+        "unix_end": 1442056500 
     },
 
     {
@@ -44,13 +44,27 @@
         "lang": "de",
         "place": "attraktor",
         "speakers": [
-            "t.b.a."
+            "andr3"
         ],
         "start": "14:00",
-        "title": "Vortrags-Slot #2 mit folgender Diskussion und Kaffeepause",
+        "title": "Planung von Richtfunk-Standorten",
         "type": "talk",
         "unix": 1442059200,
         "unix_end": 1442062800
+    },
+
+    {
+        "duration": 120,
+        "lang": "de",
+        "place": "NÄHSTUBE",
+        "speakers": [
+            "DO9XE"
+        ],
+        "start": "14:00",
+        "title": "Workshop - ffnord-Netz aufsetzen",
+        "type": "talk",
+        "unix": 1442059200,
+        "unix_end": 1442066400
     },
 
     {
@@ -64,6 +78,32 @@
         "type": "talk",
         "unix": 1442066400,
         "unix_end": 1442080800
+    },
+
+    {
+        "duration": 240,
+        "lang": "de",
+        "place": "NÄHSTUBE",
+        "speakers": [
+        ],
+        "start": "16:00",
+        "title": "Workshop und Hacking Time",
+        "type": "talk",
+        "unix": 1442066400,
+        "unix_end": 1442080800
+    },
+
+    {
+        "duration": 90,
+        "lang": "de",
+        "place": "extern",
+        "speakers": [
+        ],
+        "start": "18:00",
+        "title": "Besichtigung eines Richtfunk-Standorts",
+        "type": "talk",
+        "unix": 1442073600,
+        "unix_end": 1442079000
     },
 
     {

@@ -8,6 +8,24 @@
             "irc": "irc://irc.hackint.org/#ffnord",
             "texture": "marble",
             "speed": 70
+        },
+        "NÄHSTUBE": {
+            "twitter": "#ffnord",
+            "irc": "irc://irc.hackint.org/#ffnord",
+            "texture": "marble",
+            "speed": 70
+        },
+        "sofa-ecke": {
+            "twitter": "#ffnord",
+            "irc": "irc://irc.hackint.org/#ffnord",
+            "texture": "marble",
+            "speed": 70
+        },
+        "extern": {
+            "twitter": "#ffnord",
+            "irc": "irc://irc.hackint.org/#ffnord",
+            "texture": "marble",
+            "speed": 70
         }
     }
 }
