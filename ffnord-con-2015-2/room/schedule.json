@@ -26,17 +26,30 @@
     },
 
     {
-        "duration": 60,
+        "duration": 90,
         "lang": "de",
-        "place": "attraktor",
+        "place": "extern",
         "speakers": [
-            "kantorkel"
         ],
-        "start": "12:15",
-        "title": "Freifunk für Flüchtlinge",
+        "start": "12:30",
+        "title": "Besichtigung eines Richtfunk-Standorts",
         "type": "talk",
-        "unix": 1442052900,
-        "unix_end": 1442056500 
+        "unix": 1442053800,
+        "unix_end": 1442059200
+    },
+
+    {
+        "duration": 90,
+        "lang": "de",
+        "place": "NÄHSTUBE",
+        "speakers": [
+            "DO9XE"
+        ],
+        "start": "12:30",
+        "title": "Workshop - Offloader",
+        "type": "talk",
+        "unix": 1442053800,
+        "unix_end": 1442059200
     },
 
     {
@@ -44,13 +57,13 @@
         "lang": "de",
         "place": "attraktor",
         "speakers": [
-            "andr3"
+            "kantorkel"
         ],
-        "start": "14:00",
-        "title": "Planung von Richtfunk-Standorten",
+        "start": "14:30",
+        "title": "Freifunk für Flüchtlinge",
         "type": "talk",
-        "unix": 1442059200,
-        "unix_end": 1442062800
+        "unix": 1442061000,
+        "unix_end": 1442064600
     },
 
     {
@@ -68,16 +81,30 @@
     },
 
     {
+        "duration": 60,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+            "andr3"
+        ],
+        "start": "16:00",
+        "title": "Planung von Richtfunk-Standorten",
+        "type": "talk",
+        "unix": 1442066400,
+        "unix_end": 1442070000
+    },
+
+    {
         "duration": 240,
         "lang": "de",
         "place": "attraktor",
         "speakers": [
         ],
-        "start": "16:00",
+        "start": "17:00",
         "title": "Workshop und Hacking Time",
         "type": "talk",
-        "unix": 1442066400,
-        "unix_end": 1442080800
+        "unix": 1442070000,
+        "unix_end": 1442084400
     },
 
     {
@@ -91,19 +118,6 @@
         "type": "talk",
         "unix": 1442066400,
         "unix_end": 1442080800
-    },
-
-    {
-        "duration": 90,
-        "lang": "de",
-        "place": "extern",
-        "speakers": [
-        ],
-        "start": "18:00",
-        "title": "Besichtigung eines Richtfunk-Standorts",
-        "type": "talk",
-        "unix": 1442073600,
-        "unix_end": 1442079000
     },
 
     {
