@@ -273,7 +273,7 @@ content = switcher{
 
             white:draw(0, 300, WIDTH, 302, 0.6)
 
-            yellowU(380, 400, "PIZZA", 250)
+            yellow(115, 400, "Danke an die fleissigen Küchenhelfer!", 70)
         end
     },
 }
