@@ -267,14 +267,13 @@ content = switcher{
         end
     }, {
 --]]
-        time = 10;
+        time = 60;
         draw = function(t)
             redU(110, 200, "PUBLIC SERVICE ANNOUNCEMENT", 80)
 
             white:draw(0, 300, WIDTH, 302, 0.6)
 
-            yellowU(380, 400, "BESTELLT MEHR PIZZA!!1ELF", 50)
-            yellowU(300, 500, "SPENDET MEHR FÜR'S FRÜHSTÜCK!", 50)
+            yellowU(380, 400, "PIZZA", 250)
         end
     },
 }
