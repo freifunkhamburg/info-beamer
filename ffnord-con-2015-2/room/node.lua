@@ -183,6 +183,7 @@ end
 
 content = switcher{
     {
+--[[
         time = 20;
         draw = function()
             redU(400, 200, "Other rooms", 80)
@@ -265,13 +266,14 @@ content = switcher{
             yellow(400, 540, room.twitter, 50)
         end
     }, {
+--]]
         time = 10;
         draw = function(t)
             redU(110, 200, "PUBLIC SERVICE ANNOUNCEMENT", 80)
 
             white:draw(0, 300, WIDTH, 302, 0.6)
 
-            yellowU(350, 400, "ESST MEHR AUFSCHNITT!!1ELF", 50)
+            yellowU(380, 400, "BESTELLT MEHR PIZZA!!1ELF", 50)
             yellowU(300, 500, "SPENDET MEHR FÜR'S FRÜHSTÜCK!", 50)
         end
     },
