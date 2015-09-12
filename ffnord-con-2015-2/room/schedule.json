@@ -8,8 +8,8 @@
         "start": "9:30",
         "title": "„Einlass“ und Frühstück",
         "type": "talk",
-        "unix": 1441956600,
-        "unix_end": 1441960200
+        "unix": 1442043000,
+        "unix_end": 1442046600
     },
 
     {
@@ -21,8 +21,8 @@
         "start": "11:00",
         "title": "Eröffnungsplenum",
         "type": "talk",
-        "unix": 1441962000,
-        "unix_end": 1441963800
+        "unix": 1442048400,
+        "unix_end": 1442050200
     },
 
     {
