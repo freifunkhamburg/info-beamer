@@ -161,30 +161,85 @@
     },
 
     {
-        "duration": 60,
+        "duration": 45,
         "lang": "de",
         "place": "attraktor",
         "speakers": [
-            "t.b.a."
+            "tcatm"
         ],
         "start": "11:45",
-        "title": "Vortrags-Slot #3 mit folgender Diskussion und Kaffeepause",
+        "title": "Gluon Konfiguration im normalen Betrieb",
         "type": "talk",
         "unix": 1442137500,
-        "unix_end": 1442141100
+        "unix_end": 1442140200 
     },
 
     {
-        "duration": 150,
+        "duration": 45,
+        "lang": "de",
+        "place": "attraktor",
+        "speakers": [
+            "tcatm"
+        ],
+        "start": "12:45",
+        "title": "Mesh-unabhängiger Autoupdater",
+        "type": "talk",
+        "unix": 1442141100,
+        "unix_end": 1442143800
+    },
+
+    {
+        "duration": 45,
+        "lang": "de",
+        "place": "sofa-ecke",
+        "speakers": [
+            "tcatm"
+        ],
+        "start": "13:45",
+        "title": "Memorandum of Understanding",
+        "type": "talk",
+        "unix": 1442144700,
+        "unix_end": 1442147400
+    },
+
+    {
+        "duration": 45,
+        "lang": "de",
+        "place": "sofa-ecke",
+        "speakers": [
+            "andr3"
+        ],
+        "start": "12:45",
+        "title": "Workshop - Dienste",
+        "type": "talk",
+        "unix": 1442141100,
+        "unix_end": 1442143800
+    },
+
+    {
+        "duration": 90,
+        "lang": "de",
+        "place": "NÄHSTUBE",
+        "speakers": [
+        ],
+        "start": "14:30",
+        "title": "Hacking Time",
+        "type": "talk",
+        "unix": 1442147400,
+        "unix_end": 1442152800
+    },
+
+    {
+        "duration": 90,
         "lang": "de",
         "place": "attraktor",
         "speakers": [
         ],
-        "start": "13:00",
-        "title": "Workshop und Hacking Time",
+        "start": "14:30",
+        "title": "Hacking Time",
         "type": "talk",
-        "unix": 1442142000,
-        "unix_end": 1442151000
+        "unix": 1442147400,
+        "unix_end": 1442152800
     },
 
     {
