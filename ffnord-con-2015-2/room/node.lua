@@ -271,7 +271,9 @@ content = switcher{
 
             white:draw(0, 300, WIDTH, 302, 0.6)
 
-            yellow(115, 400, "Danke an die fleissigen Küchenhelfer!", 70)
+            yellowU(350, 400, "ESST MEHR BRÖTCHEN!!1ELF", 50)
+            yellowU(350, 470, "ESST MEHR AUFSCHNITT!!1ELF", 50)
+            yellowU(300, 540, "SPENDET MEHR FÜR'S FRÜHSTÜCK!", 50)
         end
     },
 }
